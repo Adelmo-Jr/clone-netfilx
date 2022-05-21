@@ -8,6 +8,7 @@ body{
 	color:white;
 }
 
+
 img{
 	display: block;
 	max-width: 100%;
@@ -42,10 +43,11 @@ img{
   border-radius: 3px;
 }
 
+
 .main{
 	padding-top: 4rem;
 	height:785px;
-	background: url("../img/bg.jpg") center;
+	background: url("../img/bgr.jpg") center;
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -106,6 +108,7 @@ img{
 .form-cta button:hover{
 	background:#F40612;
 }
+
 
 .main p {
 	margin-top: 40px;
@@ -259,7 +262,75 @@ section h1{
 	font-size: 13px;
   }
 
+
+
+
+  
+.footer-login{
+    padding: 20px;
+    
+}
+
+.footer-login .box-footer{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-login .box-footer .box-single{
+    display:flex;
+    margin-top:25px;
+    margin-bottom:20px;
+    
+}
+
+.box-footer p{
+    color :#737373;
+	font-size: 16px;
+	
+}
+
+.box-footer a{
+	color: #737373;
+	text-decoration: none;
+}
+
+.box-footer a:hover{
+	
+	text-decoration:underline;
+}
+
+.box-footer .box-single ul{
+    list-style: none;
+    display: flex;
+    width:100%;
+    flex-wrap:wrap;
+}
+
+.box-footer .box-single ul li {
+    width: 25%;
+    padding: 10px 0;
+	font-size: 13px;
+	
+}
+
+.box-footer .box-single ul li a{
+ color: #737373;
+ 
+ text-decoration: none;
+}
+
+.box-footer .box-single ul li a:hover{
+	
+	text-decoration: underline;
+
+   }
+
+
+
+
+
   @media (max-width: 800px) {
+
 	  .header {
 		  padding: 0 15px;
 	  }
@@ -291,6 +362,12 @@ section h1{
 		font-size: 18px;		  
 	}
 
+	.pf{
+		width:80vw;
+		margin-top:10px;
+		text-align: center;
+		 
+	}
 	.main p{
 		margin-top:10px; 
 	}
